@@ -1,0 +1,13 @@
+Pseudocode:
+Teacher degreeRate: if PhD, degreeRate = 112.
+if Master, degreeRate = 82.
+if Bachelor, degreeRate = 42.
+
+ComputePayRoll(): For teachers: if full-time, salary = (32 * degreeRate *2) * 0.85.
+if part-time, salary = (hoursWorked * degreeRate * 2) * 0.76.
+For staff: salary = (workload * 32 * 2) * 0.75. if workload > 40, print "error".
+
+if teacher/staff added to inexistent department, throw exception.
+if teacher/staff added to department that already exists/added, throw exception
+
+if department does not have dean(who is also a teacher), throw exception
